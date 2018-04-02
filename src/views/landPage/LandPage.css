@@ -22,7 +22,7 @@
     margin-left: 10%;
     font-size: 36px;
     font-weight: bold;
-    color:cyan;
+    color: white;
 }
 
 .Description{
@@ -35,7 +35,7 @@
     height: 50%;    
 }
 .page{
-    height: 45vmax;
+    height: 40rem;
 }
 .tentativa{
     height: 65%;

@@ -12,7 +12,7 @@ class LandPage extends React.Component {
                     <button type = "button" >Login</button>
                 </div>
                 <div className = "landContent">
-                    <img className ='landImage' src='https://finance-one-public.nyc3.digitaloceanspaces.com/financeone-uploads/melhores-aplicativos-financas-768x315.jpg' />
+                    <img className ='landImage' src='https://www.thefinanceteam.co.za/wp-content/uploads/Financial-manager.jpg' />
                 </div>
                 <div ><p className='Title'>Controlando</p></div>
                 <div ><p className='Description'>Nunca foi
