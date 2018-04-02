@@ -8,7 +8,7 @@ class TitleText extends React.Component{
             <div className="divMain">
                 <div>
                     <p className="title">
-                        {this.props.title}
+                        <b>{this.props.title}</b>
                     </p>
                 </div>
                 <div><p className="text">
