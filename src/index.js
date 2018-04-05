@@ -8,6 +8,7 @@ import Login from './views/login/Login'
 
 ReactDOM.render(<LandPage />, document.getElementById('root'));
 registerServiceWorker();
-
+/*
 ReactDOM.render(<Login/>, document.getElementById('root'));
 registerServiceWorker();
+*/
