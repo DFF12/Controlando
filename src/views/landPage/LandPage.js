@@ -1,7 +1,7 @@
 import React from 'react';
 import TitleText from '../../components/TitleText/TitleText';
 import './LandPage.css';
-
+import { Link } from 'react-router-dom';
 class LandPage extends React.Component {
 
     render() {
@@ -9,10 +9,10 @@ class LandPage extends React.Component {
             
             <div className='tentativa'>
                 <div className="buttonLogin">
-                    <button type = "button" >Login</button>
+                    <button type = "button" ><Link to="/Login">login</Link></button>
                 </div>
                 <div className = "landContent">
-                    <img className ='landImage' src='https://finance-one-public.nyc3.digitaloceanspaces.com/financeone-uploads/melhores-aplicativos-financas-768x315.jpg' />
+                    <img className ='landImage' src="https://finance-one-public.nyc3.digitaloceanspaces.com/financeone-uploads/melhores-aplicativos-financas-768x315.jpg" />
                 </div>
                 <div ><p className='Title'>Controlando</p></div>
                 <div ><p className='Description'>Nunca foi
